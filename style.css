@@ -33,36 +33,24 @@ body {
   background-position: center;
 }
 
-#desktop[data-bg="warm"] {
-  background-image: linear-gradient(135deg, #fde68a 0%, #fed7aa 100%);
+#desktop[data-bg="cat-chaos"] {
+  background-image: url("wallpaper-cat-chaos.jpg");
 }
 
-#desktop[data-bg="cool"] {
-  background-image: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+#desktop[data-bg="cosmic-cat"] {
+  background-image: url("wallpaper-cosmic-cat.jpg");
 }
 
-#desktop[data-bg="lavender"] {
-  background-image: linear-gradient(135deg, #e9d5ff 0%, #c4b5fd 100%);
+#desktop[data-bg="f1-donuts"] {
+  background-image: url("wallpaper-f1-donuts.jpg");
 }
 
-#desktop[data-bg="forest"] {
-  background-image: linear-gradient(135deg, #bbf7d0 0%, #4ade80 100%);
+#desktop[data-bg="f1-champion"] {
+  background-image: url("wallpaper-f1-champion.jpg");
 }
 
-#desktop[data-bg="sunset"] {
-  background-image: linear-gradient(135deg, #fecdd3 0%, #fb7185 100%);
-}
-
-#desktop[data-bg="clouds"] {
-  background-image: linear-gradient(135deg, #bae6fd 0%, #e2e8f0 100%);
-}
-
-#desktop[data-bg="street"] {
-  background-image: url("walp1.png");
-}
-
-#desktop[data-bg="beach"] {
-  background-image: url("walp2.png");
+#desktop[data-bg="f1-spa"] {
+  background-image: url("wallpaper-f1-spa.jpg");
 }
 
 #desktop::after {
@@ -1073,36 +1061,33 @@ button {
   text-align: center;
 }
 
-.bg-warm {
-  background: linear-gradient(135deg, #fef08a 0%, #fed7aa 100%);
+.bg-cat-chaos,
+.bg-cosmic-cat,
+.bg-f1-donuts,
+.bg-f1-champion,
+.bg-f1-spa {
+  background-position: center;
+  background-size: cover;
 }
 
-.bg-cool {
-  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%);
+.bg-cat-chaos {
+  background-image: url("wallpaper-cat-chaos.jpg");
 }
 
-.bg-lavender {
-  background: linear-gradient(135deg, #e9d5ff 0%, #c4b5fd 100%);
+.bg-cosmic-cat {
+  background-image: url("wallpaper-cosmic-cat.jpg");
 }
 
-.bg-forest {
-  background: linear-gradient(135deg, #bbf7d0 0%, #4ade80 100%);
+.bg-f1-donuts {
+  background-image: url("wallpaper-f1-donuts.jpg");
 }
 
-.bg-sunset {
-  background: linear-gradient(135deg, #fecdd3 0%, #fb7185 100%);
+.bg-f1-champion {
+  background-image: url("wallpaper-f1-champion.jpg");
 }
 
-.bg-clouds {
-  background: linear-gradient(135deg, #bae6fd 0%, #e2e8f0 100%);
-}
-
-.bg-street {
-  background: linear-gradient(135deg, #94a3b8 0%, #334155 100%);
-}
-
-.bg-beach {
-  background: linear-gradient(135deg, #93c5fd 0%, #38bdf8 60%, #fef08a 100%);
+.bg-f1-spa {
+  background-image: url("wallpaper-f1-spa.jpg");
 }
 
 .dock {

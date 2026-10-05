@@ -15,7 +15,7 @@ const backgroundOptions = Array.from(document.querySelectorAll(".bg-option"));
 let zIndexCounter = 10;
 
 if (desktop) {
-  desktop.dataset.bg = desktop.dataset.bg || "beach";
+  desktop.dataset.bg = desktop.dataset.bg || "cat-chaos";
 }
 
 const bringToFront = (win) => {
@@ -637,7 +637,7 @@ backgroundOptions.forEach((button) => {
     backgroundOptions.forEach((item) => item.classList.remove("active"));
     button.classList.add("active");
     if (desktop) {
-      desktop.dataset.bg = button.dataset.bg || "beach";
+      desktop.dataset.bg = button.dataset.bg || "cat-chaos";
     }
   });
 });
